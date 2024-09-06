@@ -1,0 +1,6 @@
+{
+  "job_name": "abc",
+  "cpu_per_task": 28,
+  "output_log": "out",
+  "conda_env": "Pocket2Mol"
+}

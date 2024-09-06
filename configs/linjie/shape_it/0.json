@@ -1,0 +1,4 @@
+{
+  "reference": "./data/ref.sdf",
+  "topk": 5
+}

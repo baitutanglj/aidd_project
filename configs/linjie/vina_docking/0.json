@@ -1,0 +1,10 @@
+{
+  "receptor_pdb_path": "./data/vina_docking/1UYD/1UYD_apo.pdb",
+  "reference_ligand_path": "./data/vina_docking/1UYD/PU8.pdb",
+  "number_poses": 1,
+  "box_size": [20.0, 20.0, 20.0],
+  "exhaustiveness": 8,
+  "topk": 9
+}
+
+
