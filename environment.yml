@@ -1,0 +1,18 @@
+name: AIDD
+channels:
+  - conda-forge
+  - omnia
+  - openeye
+  - rdkit
+dependencies:
+  - python = 3.9
+  - rdkit = 2024.03.5
+  - pandas
+  - numpy
+  - openeye-toolkits >= 2019
+  - openbabel = 3.1.1
+  - openmm = 8.0.0
+  - pydantic = 1.8.2
+  - pdbfixer = 1.8.1
+  - boost = 1.78
+  - biopython
