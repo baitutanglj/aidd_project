@@ -2,7 +2,7 @@
 ## 切记所以软件的安装、conda虚拟环境都装在"/share"目录下
 
 ### shape-it编译安装
-shape-it的github链接：git@github.com:rdkit/shape-it.git 
+shape-it的github链接：[shape-it](git@github.com:rdkit/shape-it.git)
 - 编译安装所需依赖：openbabel
 ```
 mkdir build
