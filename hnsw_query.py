@@ -34,7 +34,7 @@ db_password = 'lj123..'
 db_host = '192.168.109.38'  # 数据库服务器地址
 db_port = '5432'  # PostgreSQL 默认端口
 zinc_database = Zinc_Database(db_name, table_name, db_username, db_password, db_host, db_port)
-result_df = zinc_database.query(query_idx_list=list(labels), score_list=distances)
+result_df = zinc_database.query(query_idx_list=labels.tolist()[0], score_list=distances.tolist()[0])
 savepath = "./outputs/hnsw_similarity2d.csv"
 result_df.to_csv(savepath, index=False)
 

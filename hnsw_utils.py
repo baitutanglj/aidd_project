@@ -94,7 +94,7 @@ class HNSW_Query:
         query_fp = self.get_fingerprint(query)
         labels, distances = self.p.knn_query(query_fp, k=topk)
         finish_time = round(time() - start_time, 5)
-        print(f"p.knn_query: {finish_time}")
+        print(f"p.knn_query time: {finish_time} seconds")
         return labels, distances
 
 

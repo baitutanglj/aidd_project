@@ -33,6 +33,7 @@ class Zinc_Database:
         # 将数据框写入数据库中的表，追加数据到已有表
         database_df.to_sql(self.table_name, self.engine, if_exists='append', index=True, index_label='index')
         self.data_count += len(database_df)
+        print(f"dump database {filepath} ok")
 
 
     def query(self, query_idx_list, score_list):
@@ -56,4 +57,5 @@ if __name__=="__main__":
 
     query_idx_list = [1,23,3]
     score_list = [0.8, 0.5,0.3]
-    zinc_database.query(query_idx_list, score_list)
+    result_df = zinc_database.query(query_idx_list, score_list)
+    print(result_df)
